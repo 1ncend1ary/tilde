@@ -2,7 +2,7 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="robots" content="noindex" />
-<title>~</title>
+<title>🔥<title>
 
 <script>
   const CONFIG = {
@@ -18,7 +18,7 @@
     clockShowAmPm: true,
 
     // Show seconds on the clock. A monospaced font is recommended for this.
-    clockShowSeconds: false,
+    clockShowSeconds: true,
 
     // Show a twenty-four-hour clock instead of a twelve-hour clock.
     clockTwentyFourHour: true,
@@ -73,21 +73,28 @@
         url: 'https://calendar.google.com/calendar/u/0/r',
       },
       {
-        category: 'Work',
+        category: 'CSC',
         hues: ['190', '210'],
         key: 's',
         name: 'Slack',
         url: 'https://app.slack.com/client/T09M5UWSV',
       },
       {
-        category: 'Work',
+        category: 'CSC',
+        hues: ['190', '210'],
+        key: 'csc',
+        name: 'CSC',
+        url: 'https://my.compscicenter.ru/learning/assignments/',
+      },
+      {
+        category: 'CSC',
         hues: ['4', '24'],
         key: 'n',
         name: 'Notion',
         url: 'https://www.notion.so',
       },
       {
-        category: 'Work',
+        category: 'Other',
         hues: ['357', '337'],
         key: 'a',
         name: 'Asana',
@@ -101,14 +108,14 @@
         url: 'https://app.and.co/timers',
       },
       {
-        category: 'Create',
+        category: 'Other',
         hues: ['36', '26'],
         key: 'A',
         name: 'AWS',
         url: 'https://console.aws.amazon.com',
       },
       {
-        category: 'Create',
+        category: 'CSC',
         hues: ['214', '234'],
         key: 'g',
         name: 'GitHub',
@@ -116,14 +123,14 @@
         url: 'https://github.com',
       },
       {
-        category: 'Create',
+        category: 'Other',
         hues: ['266', '286'],
         key: 'f',
         name: 'Figma',
         url: 'https://www.figma.com/files/recent',
       },
       {
-        category: 'Create',
+        category: 'Other',
         key: '0',
         name: 'Local',
         search: ':{}',
@@ -162,7 +169,7 @@
         url: 'https://developer.mozilla.org/en-US',
       },
       {
-        category: 'Lurk',
+        category: 'Other',
         hues: ['254', '234'],
         key: 'r',
         name: 'Reddit',
@@ -170,14 +177,7 @@
         url: 'https://www.reddit.com',
       },
       {
-        category: 'Lurk',
-        hues: ['230', '280'],
-        key: 'i',
-        name: 'Instagram',
-        url: 'https://www.instagram.com',
-      },
-      {
-        category: 'Lurk',
+        category: 'Work',
         hues: ['201', '221'],
         key: 'l',
         name: 'LinkedIn',
@@ -185,7 +185,7 @@
         url: 'https://www.linkedin.com',
       },
       {
-        category: 'Lurk',
+        category: 'Other',
         hues: ['203', '183'],
         key: 't',
         name: 'Twitter',
@@ -193,7 +193,7 @@
         url: 'https://twitter.com/home',
       },
       {
-        category: 'Inspire',
+        category: 'Other',
         hues: ['349', '329'],
         key: '1',
         name: 'OPL',
@@ -201,7 +201,7 @@
         url: 'https://onepagelove.com/inspiration',
       },
       {
-        category: 'Inspire',
+        category: 'Other',
         hues: ['337', '317'],
         key: 'b',
         name: 'Dribbble',
@@ -209,14 +209,14 @@
         url: 'https://dribbble.com/shots/popular',
       },
       {
-        category: 'Inspire',
+        category: 'Other',
         key: 'u',
         name: 'Unsplash',
         search: '/search/{}',
         url: 'https://unsplash.com/images',
       },
       {
-        category: 'Inspire',
+        category: 'Other',
         hues: ['13', '33'],
         key: 'p',
         name: 'Hunt',
@@ -224,7 +224,7 @@
         url: 'https://www.producthunt.com',
       },
       {
-        category: 'Listen',
+        category: 'Other',
         hues: ['141'],
         key: 'S',
         name: 'Spotify',
@@ -240,7 +240,7 @@
         url: 'https://soundcloud.com/discover',
       },
       {
-        category: 'Listen',
+        category: 'Other',
         hues: ['202', '222'],
         key: 'P',
         name: 'Pandora',
@@ -248,7 +248,7 @@
         url: 'https://www.pandora.com',
       },
       {
-        category: 'Listen',
+        category: 'Other',
         hues: ['90'],
         key: 'h',
         name: 'Hypem',
@@ -256,9 +256,9 @@
         url: 'https://hypem.com/latest',
       },
       {
-        category: 'Watch',
+        category: 'Other',
         hues: ['213', '193'],
-        key: 'v',
+        key: 'vime',
         name: 'Vimeo',
         search: '/search?q={}',
         url: 'https://vimeo.com/watch',
@@ -272,7 +272,7 @@
         url: 'https://youtube.com/feed/subscriptions',
       },
       {
-        category: 'Watch',
+        category: 'Other',
         hues: ['357', '357'],
         key: 'x',
         name: 'Netflix',
@@ -280,11 +280,33 @@
         url: 'https://www.netflix.com/browse',
       },
       {
-        category: 'Watch',
+        category: 'Lurk',
+        hues: ['264', '244'],
+        key: 'v',
+        name: 'VK',
+        url: 'https://vk.com/im',
+      },
+      {
+        category: 'Listen',
+        hues: ['264', '244'],
+        key: 'M',
+        name: 'Ya.Music',
+        search: '/search?text={}',
+        url: 'https://music.yandex.com',
+      },
+      {
+        category: 'Pinzme',
+        hues: ['264', '244'],
+        key: 'bb',
+        name: 'Bitbucket',
+        url: 'https://bitbucket.org/steelunicorn/pinzme/pull-requests/',
+      },
+      {
+        category: 'Pinzme',
         hues: ['264', '244'],
         key: 'T',
-        name: 'Twitch',
-        url: 'https://www.twitch.tv/directory/following',
+        name: 'Ya.Tracker',
+        url: 'https://tracker.yandex.ru/agile/board/3',
       },
     ],
 
