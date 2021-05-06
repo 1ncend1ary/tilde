@@ -10,11 +10,11 @@ This is how you can use Tilde out of the box, but it&rsquo;s
 
 - To go to a site, type the corresponding key and press return.
 - To view the available sites and their keys, type a question mark.
-- If your input doesn&rsquo;t match a key, a generic Google search will be
+- If your input doesn't match a key, a generic Google search will be
   triggered.
 - To search a site, type a single quote after the site&rsquo;s key, followed by
   your query.
-- To go to a specific path an a site, type the path after the site&rsquo;s key.
+- To go to a specific path on a site, type the path after the site&rsquo;s key.
 
 ### Examples
 
