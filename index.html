@@ -773,6 +773,7 @@
         : '';
 
       this._el.innerHTML = hours + minutes + seconds + amPm;
+      this._el.innerHTML = '~';
       this._el.setAttribute('datetime', date.toTimeString());
     }
 
